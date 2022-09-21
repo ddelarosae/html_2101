@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <h1 id="datos"><center>Datos</center></h1>
+    <button onclick="info()">Cargar info navegador</button>
+    <script>
+        function info() {
+            document.getElementById("datos").innerHTML =
+            "La informacion del navegador es:" + navigator.appCodeName + navigator.product+"<br>"+navigator.language;
+        }
+
+    </script>
+</body>
+</html>

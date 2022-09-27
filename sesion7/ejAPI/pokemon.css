@@ -23,6 +23,7 @@ body{
 .card{
     background-color:turquoise;
     text-align: left;
+    list-style: none;
 }
 .card-image{
     height:150px;

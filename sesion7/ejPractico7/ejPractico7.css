@@ -1,0 +1,23 @@
+H1{
+    font-family:serif;
+    text-align: center;
+    color: #377ba8;
+    background-color: lightblue;
+}
+form{
+    width:350px;
+    padding:16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color:#ccc;
+}
+form input{
+    max-width: 100;
+}
+button{
+    text-align: center;
+    font-weight: bold;
+}
+img{
+    height:20px;
+}
